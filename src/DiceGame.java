@@ -23,7 +23,7 @@ public class DiceGame {
             input.nextLine(); // removing the new line character
             int die1_roll = 0;
             int die2_roll = 0;
-            while (die1_roll != 10 && die2_roll != 10) { // ask about the difference between |, ||, &, and &&
+            while (die1_roll != 10 && die2_roll != 10) { 
                 die1_roll = first_die.roll();
                 System.out.println("Die 1 Value: " + die1_roll);
                 die2_roll = second_die.roll();
